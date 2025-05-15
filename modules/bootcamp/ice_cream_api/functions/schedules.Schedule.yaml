@@ -8,7 +8,7 @@
     clientSecret: {{ icapi_extractors_client_secret }}
 - name: Backfill all sites once a day for the last 5 days (gap filling)
   functionExternalId: icapi_datapoints_extractor
-  cronExpression: "0 0 * * *"
+  cronExpression: "71 0 * * *"
   data:
     backfill: True
     hours: 240
