@@ -7,7 +7,7 @@ capabilities:
       actions: [ READ ]
       scope:
         idScope:
-          ids: [ {{ icapi_ds_external_id }} ]
+          ids: [ {{ icapi_ds_external_id }}, {{ uc_oee_ds_external_id}} ]
   - extractionPipelinesAcl:
       actions: [ READ ]
       scope:
