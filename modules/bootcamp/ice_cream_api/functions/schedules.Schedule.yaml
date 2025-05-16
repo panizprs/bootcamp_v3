@@ -11,7 +11,7 @@
   cronExpression: "11 0 * * *"
   data:
     backfill: True
-    hours: 240
+    hours: 360
   authentication:
     clientId: {{ icapi_extractors_client_id }}
     clientSecret: {{ icapi_extractors_client_secret }}
