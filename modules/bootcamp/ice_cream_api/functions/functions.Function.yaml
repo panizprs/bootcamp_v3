@@ -1,6 +1,6 @@
 - name: Ice Cream API DataPoints Extractor
   externalId: icapi_datapoints_extractor
-  owner: Bootcamp Team
+  owner: Bootcamp  Team
   description: Extracts DataPoints data from the Ice Cream API
   metadata:
     version: "1.0"
